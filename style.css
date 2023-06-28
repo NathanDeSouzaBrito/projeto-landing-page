@@ -1,0 +1,134 @@
+    *{
+        margin: 0px;
+        color: aliceblue;
+        font-family: "inter";
+    }
+
+    #logo{
+         margin-left: 75px;
+         margin-top: 50px;
+        }
+    
+    #logo:hover{
+        transform:translateY(-12px);
+        transition-duration: 1.5s;   
+    }
+    
+
+        #title{
+            margin-left: 200px;
+            margin-top: 35px;
+        }
+        #um{
+            margin-left: 200px;
+            margin-top: 35px;
+            padding-bottom: 100px;
+        }
+    #partesuperior{
+        background-image: url(Imagens/fundoDoSite.svg);
+    }
+    
+    #parteinformativa{
+        background-color: #EAECE5;   
+    }
+    #logocertificado{
+        margin-left: 150px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #partedovideo{
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+        }
+    #video{
+        margin-left: 165px;
+        margin-top: 65PX;
+        margin-bottom: 65PX;
+    }
+    #tvideo{
+        margin-top: 90px;
+        color: #247BA0;
+        
+    }
+    #textovideo{
+        margin-top: 50px;
+        color: #383838;
+    }
+
+    #carrossel{
+        padding: 50px;
+        background-color: #247BA0;
+    }
+
+    #textocarrossel{
+        color:#EAECE5 ;
+        text-align: center;
+    }
+
+    #div-cads{
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+    }
+
+    .card{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    #esquerda{
+        display: none;
+    }
+
+    #samanta{
+        display: none;
+    }
+    .seta{
+        margin-top: 55%;
+        cursor: pointer;
+    }
+    .seta:hover{
+        transform:translateX(10px);
+        transition-duration: 1s;
+    }
+
+    #Formulario{
+        text-align: center;
+
+    }
+
+    #titulo-formulario{
+        font-size: 25px;
+        margin: 25px;
+        color: #383838;
+    }
+    input{
+        color: #383838;
+        width: 300px;
+        height: 35px;
+        background-color: #EAECE5;
+        margin: 18px;
+        border: 2px;
+        border-radius: 5px;
+    }
+    
+    button{
+        background-color: #247BA0;
+        width: 250px;
+        height:45px;
+        margin: 15px;
+        border: 2px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #184e66;
+        color: white;
+        transform: translateY(-7px);
+        transition-duration: 1s;
+        box-shadow: 0px 15px 25px #0d133b ;
+    }
